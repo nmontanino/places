@@ -45,13 +45,23 @@ $(function () {
             { latLng: [40.471019, 9.489738], name: 'Lula' },
             { latLng: [60.451813, 22.266630], name: 'Turku' }
         ],
+        series: {
+            markers: [{
+                attribute: 'r',
+                scale: [4, 100],
+                values: [18, 0.06, 0.02, 0.01, 0.02, 0.01, 8, 0.01, 0.02, 0.04, 0.08,
+                     0.06, 0.01, 3, 0.25, 0.02, 2, 0.02, 0.02, 0.01, 0.02, 0.02, 1.5, 0.5, 0.3 ],
+                min: 0.1,
+                max: 15
+              }]
+        },
         markerStyle: {
             initial: {
-                fill: 'orange',
-                "fill-opacity": 0.4,
-                stroke: 'none',
-                r: 5
+                fill: 'blue',
+                "fill-opacity": 0.35,
+                stroke: 'none'
             }
         }
     });
 });
+
