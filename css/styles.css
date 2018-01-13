@@ -136,14 +136,25 @@ svg {
     padding-left: 3px;
 }
 
-/* Page Styles */
-
 #world-map {
     width: 1200px;
     height: 700px;
 }
 
+/* Page Styles */
+
+html, body {
+    margin: 0;
+}
+
 .container {
     margin: 50px auto;
     width: 75%;
+}
+
+.main-img {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
