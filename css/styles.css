@@ -241,7 +241,20 @@ hr {
     top: 0;
     /* left: 0; */
     margin-top: 0;
-    transition: background 0.6s;
+    transition: 0.6s;
     text-align: center;
     width: 100%; 
+}
+
+footer {
+    background-color: #15191d;
+    height: 70px;
+}
+
+footer p {
+    margin: 0 30px;
+    padding-top: 28px;
+    color: rgb(115, 115, 115);
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
 }
