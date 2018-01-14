@@ -234,3 +234,14 @@ hr {
     background-color: #000;
 }
 
+#nav.sticky-nav{
+    position: fixed;
+    /* z-index: 90; */
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    /* left: 0; */
+    margin-top: 0;
+    transition: background 0.6s;
+    text-align: center;
+    width: 100%; 
+}
