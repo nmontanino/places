@@ -154,7 +154,8 @@ body, html {
 }
 
 .main-img { 
-    background-image: url("../img/geo-bck.jpg");
+    /* background-image: url("../img/geo-bck.jpg"); */
+    background-color: black;
     height: 100%; 
 
     /* Parallax scrolling effect */
@@ -164,13 +165,56 @@ body, html {
     background-size: cover;
 }
 
-#name {
-    margin: 0;
+.main-header {
     text-align: center;
     font-family: 'Hammersmith One', sans-serif;
+}
+
+#name {
+    margin: 0;
     color: whitesmoke;
     font-size: 3.5em;
     letter-spacing: 10px;
-    padding-top: 230px;
+    padding-top: 18%;
     font-weight: 100;
+}
+
+#title {
+    color: lightgray;
+    letter-spacing: 5px;
+    /* font-style: italic; */
+}
+
+hr {
+    width: 160px;     
+}
+
+#nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav li a {
+    font-family: 'Hammersmith One', sans-serif;
+    color: #a69257;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 8px 18px;
+    border: 2px solid #a69257;
+    transition: all 300ms;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+#nav li a:hover{
+    opacity: 1;
+    color: #c9b16a;
+    border: 2px solid #c9b16a;
 }
