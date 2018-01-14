@@ -154,8 +154,8 @@ body, html {
 }
 
 .main-img { 
-    /* background-image: url("../img/geo-bck.jpg"); */
     background-color: black;
+    background-image: url("../img/sq-bkg.png");
     height: 100%; 
 
     /* Parallax scrolling effect */
@@ -172,7 +172,7 @@ body, html {
 
 #name {
     margin: 0;
-    color: whitesmoke;
+    color: rgb(221, 221, 221);
     font-size: 3.5em;
     letter-spacing: 10px;
     padding-top: 18%;
@@ -180,13 +180,14 @@ body, html {
 }
 
 #title {
-    color: lightgray;
+    color: rgb(115, 115, 115);
     letter-spacing: 5px;
     /* font-style: italic; */
 }
 
 hr {
-    width: 160px;     
+    width: 160px;
+    opacity: 0.5;    
 }
 
 #nav ul {
@@ -199,22 +200,22 @@ hr {
 }
 
 #nav li a {
-    font-family: 'Hammersmith One', sans-serif;
+    border: 2px solid #a69257;
     color: #a69257;
-    text-decoration: none;
     cursor: pointer;
+    display: inline-block;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    display: inline-block;
-    padding: 8px 18px;
-    border: 2px solid #a69257;
-    transition: all 300ms;
-    opacity: 0.8;
     margin: 10px;
+    opacity: 0.8;
+    padding: 8px 18px;
+    text-decoration: none;
+    transition: all 300ms; 
 }
 
 #nav li a:hover{
-    opacity: 1;
-    color: #c9b16a;
     border: 2px solid #c9b16a;
+    color: #c9b16a;
+    opacity: 1;
 }
