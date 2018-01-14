@@ -13,6 +13,7 @@
     <!-- Scripts -->
     <script src="js/lib/jquery-3.2.1.js"></script>
     <script src="js/lib/jquery.stellar.js"></script>
+    <script src="js/lib/smooth-scroll.js"></script>
 </head>
 <body>
     <div class="main-img">
@@ -23,11 +24,20 @@
         </div>
         <div id="nav">
             <ul>
-                <li><a href=#>WORK</a></li>
-                <li><a href=#>ABOUT</a></li>
-                <li><a href=#>CONTACT</a></li>
+                <li><a href=#work>WORK</a></li>
+                <li><a href=#about>ABOUT</a></li>
+                <li><a href=#contact>CONTACT</a></li>
             </ul>
         </div>
     </div>
+    
+    <div id="work"></div>
+    <div id="about"></div>
+    <div id="contact"></div>
+    
+    <!-- Smooth scrolling to anchor links -->
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
