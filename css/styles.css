@@ -143,7 +143,8 @@ svg {
 
 /* Page Styles */
 
-html, body {
+body, html {
+    height: 100%;
     margin: 0;
 }
 
@@ -152,9 +153,24 @@ html, body {
     width: 75%;
 }
 
-.main-img {
+.main-img { 
+    background-image: url("../img/geo-bck.jpg");
     height: 100%; 
+
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#name {
+    margin: 0;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    color: whitesmoke;
+    font-size: 3.5em;
+    letter-spacing: 10px;
+    padding-top: 230px;
+    font-weight: 100;
 }
