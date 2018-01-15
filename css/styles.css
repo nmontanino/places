@@ -236,7 +236,7 @@ hr {
 
 #nav.sticky-nav{
     position: fixed;
-    /* z-index: 90; */
+    z-index: 90;
     background: rgba(0,0,0,0.8);
     top: 0;
     /* left: 0; */
@@ -257,4 +257,19 @@ footer p {
     color: rgb(115, 115, 115);
     font-family: 'Hammersmith One', sans-serif;
     text-transform: uppercase;
+}
+
+.preview {
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+
+    /* Placeholder container */
+    background-color: gray;
+    margin: 20px;
+}
+
+.work-container {
+    padding: 160px;
+    text-align: center;
 }
