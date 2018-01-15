@@ -269,7 +269,12 @@ footer p {
     margin: 20px;
 }
 
+.work-sample{
+    display: inline-block;
+}
+
 .work-container {
-    padding: 160px;
+    padding: 120px;
     text-align: center;
+    max-height: 100%;
 }
