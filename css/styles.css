@@ -147,3 +147,23 @@ div .work-sample{
     text-transform: uppercase;
     margin-bottom: 3px;
 }
+
+/*============ Form Styles ============*/
+
+textarea {
+    min-height: 200px;
+}
+
+form {
+    padding-top: 180px;
+}
+
+.form-control {
+    background-color: #666;
+    border-radius: 0;
+    border-color: #a69257;
+}
+
+label {
+    color: #6c7074;
+}
