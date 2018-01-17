@@ -146,7 +146,7 @@ svg {
 body, html {
     height: 100%;
     margin: 0;
-    /* background-color: #000; */
+    color: 
 }
 
 /* .container {
@@ -182,16 +182,18 @@ body, html {
 #title {
     padding: 8px;
     margin-top: 8px;
-    color: rgb(115, 115, 115);
+    /* color: rgb(115, 115, 115); */
+    color: #a2abb2;
     letter-spacing: 5px;
     font-size: 18px;
+    opacity: 0.8;
     /* font-style: italic; */
 }
 
 hr {
     width: 160px;
-    opacity: 0.5;
-    border-top: #FFF solid 2px;    
+    opacity: 0.8;
+    border-top: #a2abb2 solid 2px;    
 }
 
 #nav ul {
@@ -267,7 +269,7 @@ footer p {
 }
 
 div .work-container {
-    padding: 120px;
+    padding: 0 120px 60px 120px;
     text-align: center;
     /* max-height: 100%; */
 }
@@ -285,9 +287,10 @@ div .work-sample{
     margin: 20px;
 }
 
-.work-sample p {
+.work-sample p, .work-sample h3 {
     text-align: left;
     padding: 0 20px;
+    t
 }
 
 
