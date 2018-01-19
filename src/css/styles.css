@@ -78,7 +78,7 @@ hr {
 
 #work {
     min-height: 100%;
-    background-color: #dee6ec;
+    background-color: #E9F2F9;
     padding-top: 90px;
 }
 
@@ -168,6 +168,8 @@ label {
     color: #6c7074;
 }
 
-/* #end-form {
-    margin:0;
-} */
+input[type="submit"] {
+    border-radius: 0;
+    background-color: #a69257;
+    
+}
