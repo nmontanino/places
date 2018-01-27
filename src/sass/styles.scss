@@ -88,8 +88,7 @@ hr {
 }
 
 #contact {
-    /* min-height: 100%; */
-    height: 100%;
+    min-height: 100%;
     background-color: #000;
 }
 
@@ -118,12 +117,12 @@ footer p {
     text-transform: uppercase;
 }
 
-div .work-container {
-    /* padding: 0 120px 60px 120px; */
+div.work-container {
+    padding: 0 120px 60px 120px;
     text-align: center;
 }
 
-div .work-sample{
+div.work-sample{
     display: inline-block;
     max-width: 340px;
     vertical-align: top;
