@@ -30,8 +30,7 @@ body, html {
   color: #a2abb2;
   letter-spacing: 5px;
   font-size: 18px;
-  opacity: 0.8;
-  /* font-style: italic; */ }
+  opacity: 0.8; }
 
 hr {
   width: 160px;
