@@ -11,16 +11,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.main-header {
+div.main-header {
   text-align: center;
   font-family: 'Hammersmith One', sans-serif; }
+
+div.header-content {
+  padding-top: 17%; }
 
 #name {
   margin: 0;
   color: #dddddd;
   font-size: 3.5em;
   letter-spacing: 10px;
-  padding-top: 17%;
   font-weight: 100; }
 
 #title {
@@ -32,7 +34,7 @@ body, html {
   font-size: 18px;
   opacity: 0.8; }
 
-hr {
+.main-header hr {
   width: 160px;
   opacity: 0.8;
   border-top: #a2abb2 solid 2px; }
@@ -64,17 +66,19 @@ hr {
   color: #c9b16a;
   opacity: 1; }
 
-#work {
+#work,
+#contact,
+#about {
   min-height: 100%;
-  background-color: #E9F2F9;
-  padding-top: 90px; }
+  padding: 130px 0 60px 0; }
+
+#work {
+  background-color: #E9F2F9; }
 
 #about {
-  height: 100%;
   background-color: #15191d; }
 
 #contact {
-  min-height: 100%;
   background-color: #000; }
 
 #nav.sticky-nav {
@@ -100,7 +104,6 @@ footer p {
   text-transform: uppercase; }
 
 div.work-container {
-  padding: 0 120px 60px 120px;
   text-align: center; }
 
 div.work-sample {
@@ -123,18 +126,37 @@ div.work-sample {
   text-transform: uppercase;
   margin-bottom: 3px; }
 
+div.section-header {
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 18px;
+  opacity: 0.8; }
+
+div.section-header hr {
+  width: 50px;
+  border-top: #a69257 solid 3px; }
+
 /*============ Form Styles ============*/
 textarea {
   min-height: 200px;
   max-height: 320px; }
 
-form {
-  padding-top: 180px; }
-
 .form-control {
   background-color: #666;
   border-radius: 0;
-  border-color: #a69257; }
+  border-color: #a69257;
+  color: black; }
+
+.form-control:focus {
+  background-color: #666;
+  color: black;
+  border-color: #c9b16a;
+  opacity: 1;
+  box-shadow: unset; }
 
 label {
   color: #6c7074; }

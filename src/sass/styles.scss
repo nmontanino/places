@@ -15,11 +15,15 @@ body, html {
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
-.main-header {
+div.main-header {
     text-align: center;
     font-family: 'Hammersmith One', sans-serif;
+}
+div.header-content {
+    padding-top: 17%;
 }
 
 #name {
@@ -27,7 +31,6 @@ body, html {
     color: rgb(221, 221, 221);
     font-size: 3.5em;
     letter-spacing: 10px;
-    padding-top: 17%;
     font-weight: 100;
 }
 
@@ -41,7 +44,7 @@ body, html {
     opacity: 0.8;
 }
 
-hr {
+.main-header hr {
     width: 160px;
     opacity: 0.8;
     border-top: #a2abb2 solid 2px;    
@@ -78,19 +81,22 @@ hr {
     opacity: 1;
 }
 
-#work {
+#work,
+#contact,
+#about {
     min-height: 100%;
+    padding: 130px 0 60px 0;
+}
+
+#work {
     background-color: #E9F2F9;
-    padding-top: 90px;
 }
 
 #about {
-    height: 100%;
     background-color: #15191d;
 }
 
 #contact {
-    min-height: 100%;
     background-color: #000;
 }
 
@@ -120,7 +126,7 @@ footer p {
 }
 
 div.work-container {
-    padding: 0 120px 60px 120px;
+    // padding: 0 120px 60px 120px;
     text-align: center;
 }
 
@@ -148,6 +154,22 @@ div.work-sample{
     margin-bottom: 3px;
 }
 
+div.section-header {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+div.section-header hr {
+    width: 50px;
+    border-top: $primary solid 3px;
+}
+
+
 /*============ Form Styles ============*/
 
 textarea {
@@ -155,14 +177,24 @@ textarea {
     max-height: 320px;
 }
 
-form {
-    padding-top: 180px;
-}
+// form {
+//     padding-top: 180px;
+// }
 
 .form-control {
     background-color: #666;
     border-radius: 0;
     border-color: $primary;
+    color: black;
+}
+
+.form-control:focus {
+    background-color: #666;
+    color: black;
+    border-color: $primary-hover;
+    opacity: 1;
+    //border-width: 2px;
+    box-shadow: unset;
 }
 
 label {
