@@ -96,6 +96,36 @@ div.header-content {
     background-color: #15191d;
 }
 
+#about p {
+    color: white;
+    opacity: 0.8;
+    padding: 0 60px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.links ul {
+    text-align: center;
+    padding: 12px 0 0 0;
+}
+
+.links li {
+    display: inline;
+}
+
+.links li a {
+    font-size: 32px;
+    display: inline-block;
+    padding: 0 12px;
+    color: white;
+    opacity: 0.8;
+    transition: all 300ms; 
+}
+
+.links li a:hover {
+    opacity: 0.5;
+}
+
 #contact {
     background-color: #000;
 }
