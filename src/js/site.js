@@ -1,7 +1,7 @@
 'use strict';
 
 // Fade in header contents
-$('.header-content').hide().fadeIn(1600);
+$('.header-content').fadeIn(1600);
 
 // Creates new smooth scroll object
 var scroll = new SmoothScroll('a[href*="#"]', {
